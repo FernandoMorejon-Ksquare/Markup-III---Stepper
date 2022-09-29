@@ -1,0 +1,93 @@
+html {
+    display: flex;
+
+}
+
+#stepper {
+    display: flex;
+    flex-flow: row;
+    padding: 15px;
+    background-color: rgb(226, 226, 226);
+    opacity: 0.68;
+    font-weight: bold;
+}
+
+.step1 {
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    background-color: rgba(20,184,166,255);
+    border-radius: 5px;
+}
+
+.step1text {
+
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    color: rgba(20,184,166,255);
+}
+
+.step2 {
+    margin: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    background-color: rgba(79,70,229,255);
+    border-radius: 5px;
+}
+
+.step2text {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: rgba(79,70,229,255);
+}
+
+.step3 {
+    margin: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    color: rgba(79,70,229,255);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.step3text {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.step4 {
+    margin: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
+    color: rgba(79,70,229,255);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.step4text {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+#container {
+    
+}
+
+#listContainer{
+    
+   
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+#dessert {
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}

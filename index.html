@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="description" content=""> 
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <title>Markup III - Stepper</title>
+   
+    </header>
+    <body>
+       
+
+      <div id="container">
+
+        <div id="stepper">
+
+            <p class="step1">1</p>
+            <p class="step1text">Cabin</p>
+            <p class="step2">2</p>
+            <p class="step2text">Meals</p>
+            <p class="step3">3</p>
+            <p class="step3text">Upgrades</p>
+            <p class="step4">4</p>
+            <p class="step4text">Payment</p>
+
+        </div>
+
+
+        <h2>Meal Preferences</h2>
+        <p>Your flight comes with breakfast, lunch and dinner. Please make your selections below.</p>
+        <p>Changes to your order can be made up 48 hours before your fligth.</p> 
+
+        <div id="listContainer">
+            
+            <label for="breakfast"><strong>Breakfast</strong></label>
+            <input list="breakfast">
+
+            <datalist id="breakfast">
+
+                <option value="Sausage Egg Scramble Bowl">
+ 
+            </datalist>
+            
+            <label for="drink1"><strong>Drink</strong></label>
+            <input list="drink1">
+
+            <datalist id="drink1">
+
+                <option value="Coffe">
+ 
+            </datalist>
+            <br />
+
+            <label for="dinner"><strong>Lunch</strong></label>
+            <input list="dinner">
+
+            <datalist id="dinner">
+
+                <option value="Club Sandwich Meal">
+ 
+            </datalist>
+
+            <label for="drink2"><strong>Drink</strong></label>
+            <input list="drink2">
+
+            <datalist id="drink2">
+
+                <option value="Cranberry Juice">
+ 
+            </datalist>
+            <br />
+
+            <label for="dinner"><strong>Dinner</strong></label>
+            <input list="dinner">
+
+            <datalist id="dinner">
+
+                <option value="Wagyu Beef Sliders Meal">
+ 
+            </datalist>
+
+            <label for="drink3"><strong>Drink</strong></label>
+            <input list="drink3">
+
+            <datalist id="drink3">
+
+                <option value="Red Wine">
+ 
+            </datalist>
+        </div>
+
+        <input type="checkbox" id="dessert" checked>I'd like dessert, too!
+            <br />
+            <div class="buttons">
+                <button>Back</button>
+                <button>Continue</button>
+            </div>
+
+      </div>
+
+       
+
+    </body>
+
+   
+
+</html>
